@@ -15,16 +15,13 @@
  * Base structure
  */
 
- body {
-  background-image: url("./assets/background.jpg");
-  background-repeat: no-repeat;
-  background-position: center top; 
-  background-size: 700px 100%;
- }
-
-
 .cover-container {
   max-width: 42em;
+  background-color:#00356E;
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*

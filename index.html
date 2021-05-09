@@ -34,7 +34,7 @@
     document.addEventListener('DOMContentLoaded', (event) => {
       document.getElementById('brett-form').onclick = function changeContent() {
         let warn = document.getElementById('brett-warning');
-        let question = window.prompt("In welchem Ort fand das Brett 2020 statt?", "");
+        let question = window.prompt("An welchem Ort fand das Brett 2020 statt?", "");
         if (question == null || question == "") {
           warn.style.display = "block";
           return;

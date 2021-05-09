@@ -15,16 +15,18 @@
  * Base structure
  */
 
-
-.cover-container {
-  max-width: 42em;
+ body {
   background-image: url("./assets/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
   background-size: 700px 100%;
-}
+ }
 
+
+.cover-container {
+  max-width: 42em;
+}
 
 /*
  * Header
@@ -65,15 +67,19 @@
 
 #brett-lead {
   font-family: 'Marvelos', 'Arial', serif;
-  font-size: 3.5em;
+  font-size: 4em;
   font-weight: 400;
   line-height: 1.0;
+}
+
+#brett-logo {
+  max-width: 32em;
 }
 
 #brett-year {
   font-family: 'Gomarice', 'Arial', serif !important;
   font-weight: 400;
-  font-size: 1.0em;
+  font-size: 0.9em;
 }
 
 #brett-warning {

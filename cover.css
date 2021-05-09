@@ -1,0 +1,91 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+/*
+ * Base structure
+ */
+
+
+.cover-container {
+  max-width: 42em;
+  background-image: url("./assets/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 700px 100%;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+#brett-title {
+  font-family: 'Gomarice', 'Arial', serif;
+  font-size: 4em;
+}
+
+#brett-subtitle {
+  font-family: 'Marvelos', 'Arial', serif;
+  font-size: 4em;
+  font-weight: 600;
+}
+
+#brett-lead {
+  font-family: 'Marvelos', 'Arial', serif;
+  font-size: 3.5em;
+  font-weight: 400;
+  line-height: 1.0;
+}
+
+#brett-year {
+  font-family: 'Gomarice', 'Arial', serif !important;
+  font-weight: 400;
+  font-size: 1.0em;
+}
+
+#brett-warning {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Gomarice';
+  src: url('assets/gomarice_sanbon_line.ttf');
+}
+
+@font-face {
+  font-family: 'Marvelos';
+  src: url('assets/Marvelos.ttf');
+}

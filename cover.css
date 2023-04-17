@@ -51,38 +51,41 @@
 }
 
 #brett-title {
-  font-family: 'Gomarice', 'Arial', serif;
-  font-size: 4em;
+  font-family: 'FrenchScript', 'Trattatello', serif;
+  font-size: 5em;
+  color:#e5e5e5;
 }
 
 #brett-subtitle {
-  font-family: 'Marvelos', 'Arial', serif;
-  font-size: 5em;
+  font-family: 'Arial', serif;
+  font-size: 2em;
   font-weight: 500;
+  color:#e5e5e5;
 }
 
 .brett-lead {
-  font-family: 'Marvelos', 'Arial', serif;
+  font-family: 'FrenchScript', 'Trattatello', serif;
   font-size: 4em;
   font-weight: 400;
   line-height: 1.0;
+  color:#e5e5e5;
+}
+
+#brett-year {
+  font-family: 'FrenchScript', 'Trattatello', serif !important;
+  font-weight: 400;
+  font-size: 0.9em;
 }
 
 #brett-logo {
   max-width: 32em;
 }
 
-#brett-year {
-  font-family: 'Gomarice', 'Arial', serif !important;
-  font-weight: 400;
-  font-size: 0.9em;
-}
-
 #brett-warning {
   display: none;
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Gomarice';
   src: url('assets/gomarice_sanbon_line.ttf');
 }
@@ -90,4 +93,9 @@
 @font-face {
   font-family: 'Marvelos';
   src: url('assets/Marvelos.ttf');
+}*/
+
+@font-face {
+  font-family: 'FrenchScript';
+  src: url('assets/FrenchScriptMT.ttf');
 }

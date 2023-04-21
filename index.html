@@ -15,7 +15,7 @@
   <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <script type="text/javascript">
-    /*document.addEventListener('DOMContentLoaded', (event) => {
+    document.addEventListener('DOMContentLoaded', (event) => {
       document.getElementById('brett-form').onclick = function changeContent() {
         let warn = document.getElementById('brett-warning');
         let question = window.prompt("An welchem Ort fand das Brett 2021 statt?", "");
@@ -25,13 +25,13 @@
         }
 
         let lower = question.toLowerCase().trim();
-        if (lower === "ulmet" || lower === "in ulmet" || lower === "pfalz") {
+        if (lower === "ulmet" || lower === "kusel" || lower === "in ulmet" || lower === "pfalz") {
           window.location = "https://forms.gle/sKHPJxMgaDg1xd9K8";
         } else {
           warn.style.display = "block";
         }
       }
-    });*/
+    });
   </script>
 
   <!-- Custom styles for this template -->
@@ -62,7 +62,7 @@
       </div>
       <p class="lead">
         <button type="button" id="brett-form"
-          class="btn btn-lg btn-secondary disabled fw-bold border-white bg-white mt-5">Anmeldung ab 23. April</button>
+          class="btn btn-lg btn-secondary fw-bold border-white bg-white mt-5">Anmeldung</button>
       </p>
       <footer class="mt-5 mb-5 pt-5 text-white-50">
         <p>(C) 2023 Brett Crew <br /><a href="./disclaimer.html" class="text-white-50">Impressum</a></p>

@@ -2,6 +2,7 @@
  * Globals
  */
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* Custom default button */
 .btn-secondary,
@@ -12,17 +13,44 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
+/* Define root variables and base styles */
+:root {
+  --bs-font-sans-serif: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--bs-font-sans-serif);
+}
+
+header {
+  max-width: 42em;
+}
+
+footer {
+  padding: 1rem;
+}
+
 /*
  * Base structure
  */
 
-.cover-container {
+.site-container {
+  min-height: 100vh;
+}
+
+.content-container {
   max-width: 42em;
-  background-color:#00356E;
-  background-image: url("./assets/background.jpg");
+}
+
+.cover-container {
+  height: 100vh;
+  background-color: #00356e;
+  background-image: url("./assets/bg/schwof-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 8px;
 }
 
 /*
@@ -30,16 +58,16 @@
  */
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -49,52 +77,4 @@
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
-}
-
-#brett-title {
-  font-family: 'FrenchScript', 'Trattatello', serif;
-  font-size: 5em;
-  color:#e5e5e5;
-}
-
-#brett-subtitle {
-  font-family: 'Trattatello', 'FrenchScript', 'Arial', serif;
-  font-size: 2em;
-  font-weight: 500;
-  color:#e5e5e5;
-}
-
-.brett-lead {
-  font-family: 'FrenchScript', 'Trattatello', serif;
-  font-size: 4em;
-  font-weight: 400;
-  line-height: 1.0;
-  color:#e5e5e5;
-}
-
-#brett-date {
-  font-size: 0.8em !important;
-}
-
-#brett-logo {
-  max-width: 32em;
-}
-
-#brett-warning {
-  display: none;
-}
-
-/*@font-face {
-  font-family: 'Gomarice';
-  src: url('assets/gomarice_sanbon_line.ttf');
-}
-
-@font-face {
-  font-family: 'Marvelos';
-  src: url('assets/Marvelos.ttf');
-}*/
-
-@font-face {
-  font-family: 'FrenchScript';
-  src: url('assets/FrenchScriptMT.ttf');
 }

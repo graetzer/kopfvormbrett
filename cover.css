@@ -43,14 +43,28 @@ footer {
   max-width: 42em;
 }
 
-.cover-container {
-  height: 100vh;
-  background-color: #00356e;
-  background-image: url("./assets/bg/schwof-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 42em;
+}
+
+.image {
+  width: 100%;
+  height: auto;
   border-radius: 8px;
+}
+
+.button-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 35%;
+  text-align: center;
+}
+
+.text-wrapper {
+  margin-top: 1em;
 }
 
 /*
